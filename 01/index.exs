@@ -46,3 +46,6 @@ defmodule ElfCalorieCalculator do
     |> Enum.sum()
   end
 end
+
+IO.inspect("Part one answer: #{ElfCalorieCalculator.find_elf_with_most_calories()}")
+IO.inspect("Part two answer: #{ElfCalorieCalculator.find_sum_of_top_three()}")
