@@ -1,7 +1,4 @@
 defmodule RockPaperScissors do
-  @opponent_moves %{rock: "A", paper: "B", scissors: "C"}
-  @player_moves %{rock: "X", paper: "Y", scissors: "Z"}
-
   def read_input() do
     case File.read("input.txt") do
       {:ok, result} ->
